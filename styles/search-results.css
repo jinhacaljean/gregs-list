@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "helvetica", sans-serif;
+}
+/* NAV BAR */
+nav {
+	background-color: grey;
+	padding: 20px;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-size: 20px;
+}
+
+nav ul {
+	list-style: none;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+nav li {
+	display: inline;
+	margin-left: 10px;
+	color: purple;
+}
+
+/* MAIN */
+main {
+	position: relative;
+	top: 80px;
+	width: 90%;
+	margin: auto;
+}
+
+/*SEARCH*/
+
+.search {
+	height: 110px;
+}
+
+.search-label {
+	font-size: 16px;
+}
+
+
+input {
+	width: 50%;
+	height: 40px;
+	font-size: 18px;
+	position: absolute;
+	top: 26px;
+}
+
+.button {
+	height: 40px;
+	width:  40px;
+	border: 1px solid grey;
+	position: absolute;
+	top: 26px;
+	left: 50%;
+	margin-left: 5px;
+}
+
+/*RESULTS*/
+
+.results-nav {
+	height: 50px;
+	border: 1px solid grey;
+	width: 40%;
+	font-size: 18px;
+}
+
+/*ONE HOUR twenty*/
