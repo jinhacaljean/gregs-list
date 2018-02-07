@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "helvetica", sans-serif;
+}
+/* NAV BAR */
+nav {
+	background-color: #DCDCDC;
+	padding: 20px;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	font-size: 20px;
+}
+
+nav ul {
+	list-style: none;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+}
+
+nav li {
+	display: inline;
+	margin-left: 10px;
+	color: purple;
+}
+
+/* MAIN */
+main {
+	position: relative;
+	top: 80px;
+	width: 85%;
+	margin: auto;
+}
+
+/*SEARCH*/
+
+.search {
+	height: 110px;
+}
+
+.search-label {
+	font-size: 16px;
+}
+
+
+input {
+	width: 50%;
+	height: 40px;
+	font-size: 18px;
+	position: absolute;
+	top: 26px;
+	border-radius: 5px;
+	border: 2px solid #DCDCDC;
+}
+
+.button {
+	height: 40px;
+	width:  40px;
+	border: 2px solid #DCDCDC;
+	border-radius: 5px;
+	position: absolute;
+	top: 26px;
+	left: 50%;
+	margin-left: 5px;
+}
+
+/*RESULTS*/
+
+.results-nav {
+	height: 45px;
+	border: 2px solid #DCDCDC;
+	border-radius: 5px;
+	width: 40%;
+	font-size: 18px;
+
+}
+.results-nav-1 {
+	width: 24%;
+	height: 45 px;
+	text-align: center;
+	display: inline-block;
+	padding-top: 12px;
+}
+
+.results-nav-2 {
+	width: 49%;
+	height: 43px;
+	text-align: center;
+	display: inline-block;
+	border-left: 2px solid #DCDCDC;
+	border-right: 2px solid #DCDCDC;
+	padding-top: 12px;
+
+}
+
+/* RESULTS LIST */
+
+.results {
+	margin-top: 50px;
+}
+
+.date {
+	color: grey;
+}
+
+.description {
+	color: blue;
+	font-weight: bold;
+}
+
+.location {
+	color: grey
+	;
+}
+
+li.results {
+	margin-top: 1.5%;
+}
+
+
+/*two hours*/
